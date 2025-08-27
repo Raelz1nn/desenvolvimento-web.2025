@@ -73,12 +73,9 @@ Validação (viabilidade): [medição no protótipo]; meta: [n] s ou menos na ma
 
 **Primeira fatia vertical (escopo mínimo):**  
 
-<!-- encaminhar para o professor:
--->
-Inclui: [uma tela], [uma ação principal], [salvar], [mostrar algo]  
-Critérios de aceite:
-- [Condição 1 bem objetiva]
-- [Condição 2 bem objetiva]
+-    -- Analise de crédito
+-    -- Salvar orçamento
+     -- Mostrar simulação
 
 ## 7) Esboços de algumas telas (wireframes)
 <!-- Vale desenho no papel (foto), Figma, Excalidraw, etc. Não precisa ser bonito, precisa ser claro.
