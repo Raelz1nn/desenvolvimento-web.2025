@@ -114,7 +114,6 @@ Validação (viabilidade): [medição no protótipo]; meta: [n] s ou menos na ma
      - Chamado — pedido de ajuda criado por um usuário -->
 -    -- Usuário — cliente
 -    -- Usuário — vendedor
--    -- Usuário — gestor de crediário
 -    -- Chamado — pedido de ajuda criado por um usuário
 
 ### 9.2 Campos por entidade
