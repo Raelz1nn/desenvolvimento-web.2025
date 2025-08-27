@@ -69,9 +69,12 @@ Validação (viabilidade): [medição no protótipo]; meta: [n] s ou menos na ma
      Inclui login simples, criar chamado, listar em ordem.
      Critérios de aceite (objetivos): criar → aparece na lista com horário; encerrar → some ou marca "fechado". -->
 **Fluxo principal (curto):**  
-1) [entrada do usuário] → 2) [processo] → 3) [salvar algo] → 4) [mostrar resultado]
+1) [entrada do usuário] → 2) [crediário] → 3) [análise de crédito] → 4) [mostrar resultado]
 
 **Primeira fatia vertical (escopo mínimo):**  
+
+<!-- encaminhar para o professor:
+-->
 Inclui: [uma tela], [uma ação principal], [salvar], [mostrar algo]  
 Critérios de aceite:
 - [Condição 1 bem objetiva]
@@ -112,9 +115,10 @@ Critérios de aceite:
 <!-- EXEMPLO:
      - Usuario — pessoa que usa o sistema (aluno/professor)
      - Chamado — pedido de ajuda criado por um usuário -->
-- [Entidade 1] — [o que representa em 1 linha]
-- [Entidade 2] — [...]
-- [Entidade 3] — [...]
+- Usuário — cliente
+- Usuário — vendedor
+- Usuário — gestor de crediário
+- Chamado — pedido de ajuda criado por um usuário
 
 ### 9.2 Campos por entidade
 <!-- Use tipos simples: uuid, texto, número, data/hora, booleano, char. -->
@@ -124,7 +128,7 @@ Critérios de aceite:
 |-----------------|-------------------------------|-------------|--------------------|
 | id              | número                        | sim         | 1                  |
 | nome            | texto                         | sim         | "Ana Souza"        |
-| email           | texto                         | sim (único) | "ana@exemplo.com"  |
+| CPF             | número                        | sim (único) | "044.128.244-84"   |
 | senha_hash      | texto                         | sim         | "$2a$10$..."       |
 | papel           | número (0=aluno, 1=professor) | sim         | 0                  |
 | dataCriacao     | data/hora                     | sim         | 2025-08-20 14:30   |
