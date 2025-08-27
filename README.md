@@ -27,9 +27,9 @@ EXEMPLO: "AtendeAí — Fila de Ajuda em Sala"
      Todos: Logar/deslogar do sistema; Manter dados cadastrais
      Professor: Manter (inserir, mostrar, editar, remover) todos os chamados
      Aluno: Manter (inserir, mostrar, editar, remover) seus chamados -->
-Todos: Logar/deslogar; Manter dados cadastrais 
-Cliente: Manter (inserir, mostrar, editar, remover)  
-Vendedor: Manter (inserir, mostrar, editar, remover)
+-- Todos: Logar/deslogar; Manter dados cadastrais 
+-- Cliente: Manter (inserir, mostrar, editar, remover)  
+-- Vendedor: Manter (inserir, mostrar, editar, remover)
 
 ## 4) Limites e suposições
 <!-- Simples assim:
@@ -40,9 +40,9 @@ Vendedor: Manter (inserir, mostrar, editar, remover)
      Limites: entrega final até o fim da disciplina (ex.: 2025-11-30); rodar no navegador; sem serviços pagos.
      Suposições: internet no laboratório; navegador atualizado; acesso ao GitHub; 10 min para teste rápido.
      Plano B: sem internet → rodar local e salvar em arquivo/LocalStorage; sem tempo do professor → testar com 3 colegas. -->
-Limites: entrega final até o fim do dia; rodar no navegador; sem serviços pagos. 
-Suposições: internet no laboratório; navegador atualizado; 10 min para teste rápido.
-Plano B: sem internet → rodar local e salvar em arquivo/LocalStorage;
+-- Limites: entrega final até o fim do dia; rodar no navegador; sem serviços pagos. 
+-- Suposições: internet no laboratório; navegador atualizado; 10 min para teste rápido.
+-- Plano B: sem internet → rodar local e salvar em arquivo/LocalStorage;
 
 ## 5) Hipóteses + validação
 <!-- Preencha as duas frases abaixo. Simples e direto.
@@ -115,10 +115,10 @@ Critérios de aceite:
 <!-- EXEMPLO:
      - Usuario — pessoa que usa o sistema (aluno/professor)
      - Chamado — pedido de ajuda criado por um usuário -->
-- Usuário — cliente
-- Usuário — vendedor
-- Usuário — gestor de crediário
-- Chamado — pedido de ajuda criado por um usuário
+- -- Usuário — cliente
+- -- Usuário — vendedor
+- -- Usuário — gestor de crediário
+- -- Chamado — pedido de ajuda criado por um usuário
 
 ### 9.2 Campos por entidade
 <!-- Use tipos simples: uuid, texto, número, data/hora, booleano, char. -->
