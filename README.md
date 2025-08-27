@@ -2,22 +2,23 @@
 EXEMPLO: "AtendeAí — Fila de Ajuda em Sala"
 
 ## 1) Problema
-<!-- Escreva o problema sem falar de telas/tecnologias.
-     Responda: Quem sofre? Onde? O que atrapalha? Por que isso importa?
-     EXEMPLO: Em aulas práticas, alunos esperam muito para serem atendidos.
-     Há filas confusas e frustração. O professor não vê ordem nem tempo de espera.
-     Objetivo inicial: organizar a fila para reduzir a espera e garantir justiça. -->
-[Quem], em [contexto], tem dificuldade em [tarefa/dor].
-Isso causa [efeito mensurável].
-No início, o foco será [público principal] com o objetivo de [resultado simples].
+
+     No comercio nacional é muito comum que pessoas usem o seu CPF para criação de 
+     crediário, para isso, o cliente precisa se deslocar de sua casa para ir em loja física 
+     para passar pela análise do credário e muitas vezes o cliente nao consegue realizar a sua compra
+     e/ou o  seu orçamento.
+     Isso faz com que muitos desses clientes deixem de comprar gerando uma grande queda no comércio.
+     No início, o foco será principalmente naqueles que desejam realizar compras sem depender de cartões de 
+     crédito com o objetivo principal de fazer girar a economia.
+
 
 ## 2) Atores e Decisores (quem usa / quem decide)
 <!-- Liste papéis (não nomes).
      EXEMPLO:
      Usuários principais: Alunos da turma de Desenvolvimento Web
      Decisores/Apoiadores: Professores da disciplina; Coordenação do curso -->
-Usuários principais: [lista]
-Decisores/Apoiadores: [lista]
+Usuários principais: clientes
+Decisores/Apoiadores: vendedores; gestão de crediário 
 
 ## 3) Casos de uso (de forma simples)
 <!-- Formato "Ator: ações que pode fazer".
