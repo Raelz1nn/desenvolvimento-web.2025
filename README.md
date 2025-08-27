@@ -27,9 +27,9 @@ Decisores/Apoiadores: vendedores; gestão de crediário
      Todos: Logar/deslogar do sistema; Manter dados cadastrais
      Professor: Manter (inserir, mostrar, editar, remover) todos os chamados
      Aluno: Manter (inserir, mostrar, editar, remover) seus chamados -->
-Todos: [ações comuns, ex.: Logar/deslogar; Manter dados cadastrais]  
-[Ator 1]: [ações do ator 1]  
-[Ator 2]: [ações do ator 2]
+Todos: Logar/deslogar; Manter dados cadastrais 
+Cliente: Manter (inserir, mostrar, editar, remover)  
+Vendedor: Manter (inserir, mostrar, editar, remover)
 
 ## 4) Limites e suposições
 <!-- Simples assim:
@@ -40,9 +40,9 @@ Todos: [ações comuns, ex.: Logar/deslogar; Manter dados cadastrais]
      Limites: entrega final até o fim da disciplina (ex.: 2025-11-30); rodar no navegador; sem serviços pagos.
      Suposições: internet no laboratório; navegador atualizado; acesso ao GitHub; 10 min para teste rápido.
      Plano B: sem internet → rodar local e salvar em arquivo/LocalStorage; sem tempo do professor → testar com 3 colegas. -->
-Limites: [prazo final], [regras/tecnologias obrigatórias], [restrições]  
-Suposições: [internet/navegador/GitHub/tempo de teste]  
-Plano B: [como continua entregando a 1ª fatia se algo falhar]
+Limites: entrega final até o fim do dia; rodar no navegador; sem serviços pagos. 
+Suposições: internet no laboratório; navegador atualizado; 10 min para teste rápido.
+Plano B: sem internet → rodar local e salvar em arquivo/LocalStorage;
 
 ## 5) Hipóteses + validação
 <!-- Preencha as duas frases abaixo. Simples e direto.
