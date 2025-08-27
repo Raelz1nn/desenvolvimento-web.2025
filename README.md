@@ -17,8 +17,8 @@ EXEMPLO: "AtendeAí — Fila de Ajuda em Sala"
      EXEMPLO:
      Usuários principais: Alunos da turma de Desenvolvimento Web
      Decisores/Apoiadores: Professores da disciplina; Coordenação do curso -->
-Usuários principais: clientes
-Decisores/Apoiadores: vendedores; gestão de crediário 
+     -- Usuários principais: clientes
+     -- Decisores/Apoiadores: vendedores; gestão de crediário 
 
 ## 3) Casos de uso (de forma simples)
 <!-- Formato "Ator: ações que pode fazer".
