@@ -75,7 +75,7 @@ Validação (viabilidade): [medição no protótipo]; meta: [n] s ou menos na ma
 
 -    -- Analise de crédito
 -    -- Salvar orçamento
-     -- Mostrar simulação
+-    -- Mostrar simulação
 
 ## 7) Esboços de algumas telas (wireframes)
 <!-- Vale desenho no papel (foto), Figma, Excalidraw, etc. Não precisa ser bonito, precisa ser claro.
