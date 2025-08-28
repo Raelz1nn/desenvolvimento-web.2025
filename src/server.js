@@ -1,13 +1,13 @@
 import express from "express";
 
 const app = express();
-app.use(express.json());
+app.use(express.json()); // middleware - faz o express entender JSON
 
 // rota de saúde
 app.get("/health", (req, res) => res.json({ ok: true }));
 
 // mini-API de tarefas em memória (sem banco ainda)
-const tasks = []; // [{id, title, done}]
+const tasks = []; // [{id, title, done}] 
 let nextId = 1;
 
 app.get("/tasks", (req, res) => res.json(tasks));
