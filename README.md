@@ -140,6 +140,16 @@ Validação (viabilidade): [medição no protótipo]; meta: [n] s ou menos na ma
 | dataCriacao     | data/hora          | sim         | 2025-08-20 14:35        |
 | dataAtualizacao | data/hora          | sim         | 2025-08-20 14:50        |
 
+### Produto
+| Campo           | Tipo               | Obrigatório | Exemplo                 |
+|-----------------|--------------------|-------------|-------------------------|
+| id              | número             | sim         | 2                       |
+| Nome de produto | texto              | sim         | "bicama"                |
+| estado          | char               | sim         | 'a' \| 'f'              |
+| vencimento      | data/hora          | sim         | 2025-10-20 14:35        |
+| juros           | número             | sim         | 6,15%                   |
+
+
 ### 9.3 Relações entre entidades
 <!-- Frases simples bastam. EXEMPLO:
      Um Usuario tem muitos Chamados (1→N).
